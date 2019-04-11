@@ -1,0 +1,19 @@
+.button {
+  display: inline-block;
+  padding: 4px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .9;
+}
+
+.button.small {
+  font-size: 12px;
+}
+
+.button.big {
+  font-size: 24px;
+}
